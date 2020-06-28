@@ -8,8 +8,8 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
-for i in range(6):
-    for a in range (9):
+for i in range(6): #6 columns
+    for a in range (9): # 9 rows
         if a < 8:
             print(grid[a][i],end="")
         else:
