@@ -13,4 +13,4 @@ for i in range(6): #6 columns
         if a < 8:
             print(grid[a][i],end="")
         else:
-            print(grid[a][i])
+            print(grid[a][i]) 
