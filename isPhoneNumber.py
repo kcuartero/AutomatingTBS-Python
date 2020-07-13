@@ -1,12 +1,12 @@
 def isPhoneNumber(text):
-    if len(text) != 12:
+    if len(text) != 12: # if text is not 12 characters long, return False
         return False
-    for i in range(0,3):
-        if not text[i].isdecimal():
+    for i in range(0,3):  #from the first 3 digits
+        if not text[i].isdecimal(): # if not a number, return False
             return False
-    if text[3] != '-':
+    if text[3] != '-': #if the 4th character is not a "-" , return False
         return False
-    for i in range(4,7):
+    for i in range(4,7): #from 4 to 7
         if not text[i].isdecimal():
             return False
     if text[7] != '-':
